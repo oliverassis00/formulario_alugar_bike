@@ -10,14 +10,13 @@
 <body>
     <main class="container">
 
-        <div class="coluna-formulario">
+        <form action="#" class="formulario">
 
-            <form action="#" class="formulario">
+            <img src="images/logo-bike.png" alt="Logo Bicicleta">
 
-                <img src="images/logo-bike.png" alt="Logo Bicicleta">
-
-                <h1>Bike Mania</h1>
-                <h2>Preencha as informações abaixo</h2>
+         
+                <h1 class="titulo-bike">Bike Mania</h1>
+                <h2 class="titulo-pinformacoes">Preencha as informações abaixo</h2>
 
                 <label for="nome">Nome Completo</label>
                 <input type="text" name="nome" id="nome">
@@ -27,28 +26,28 @@
 
                 <label for="select-bike">Selecione o modelo escolhido:</label>
 
-                <select name="select-bike" id="select-bike">
+                <select name="select-bike" id="select-bike" class="select">
 
-                    <option value="">Bikes BMX</option>
+                    <option value="bike-bmx">Bikes BMX</option>
 
                 </select>
+       
 
-                <input type="submit" value="Enviar">
+            <button class="botao"> Enviar </button>
 
-            </form>
-            
-        </div>
+        </form>
 
         <div class="coluna-imagem">
 
-            <h1>Mobilidade acessível para o seu dia! Alugue sua bicicleta por um preço justo</h1>
+            <h1 class="titulo-alugar">Mobilidade acessível para o seu dia! <strong class="texto-chave"> Alugue </strong> sua bicicleta por um preço <strong class="texto-chave">justo</strong></h1>
 
-            <h2>Válido em todo o território nacional *</h2>
+            <h2 class="titulo-validade">Válido em todo o território nacional *</h2>
 
 
             <img src="images/bike-bmx.png" alt="Bicicleta BMX">
 
         </div>
+
     </main>
 </body>
 </html>
