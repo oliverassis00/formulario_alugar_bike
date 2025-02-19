@@ -1,7 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-font-family: "Poppins", serif;
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-font-family: "Noto Sans", serif;
+
+/* Imagens */
+.formulario img {
+    width: 100px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.coluna-imagem img {
+    width: 500px;
+    height: auto;
+}
+
+
+/* Formatação do Corpo da Página */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", serif;
+    background-color: #14213D;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCA311;
+    padding: 20px 50px;
+    height: 520px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.formulario h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.formulario h2 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px 20px;
+}
+
+.formulario label {
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
+
+.formulario input {
+    height: 25px;
+    outline: none;
+    padding: 5px 6px;
+    border-radius: 2px;
+    font-size: 16px;
+    border: none;
+}
+
+.formulario select{
+    margin-bottom: 25px;
+    height: 35px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+.botao {
+    border: none;
+    text-transform: uppercase;
+    background-color: #14213D;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/* Formatação da Segunda Div onde contẽm a imagem */
+
+.coluna-imagem {
+    width: 500px;
+    color: white;
+    margin-left: 20px;
+}
+
+.coluna-imagem strong {
+    color: #FCA311;
+}
+
+.coluna-imagem h1 {
+    font-size: 25px;
+}
+
+.coluna-imagem h2 {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 10px;
+}
