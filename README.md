@@ -9,6 +9,7 @@ Este projeto é uma página web simples desenvolvida em **HTML** e **CSS** para 
 - CSS3
 
 ## 📸 Captura de Tela
+![Aluguel de Carros - Bike Mania](./images/tela_website_readme.png)
 
 
 ## 🚀 Como Usar
